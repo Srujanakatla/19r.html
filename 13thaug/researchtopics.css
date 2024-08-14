@@ -1,0 +1,39 @@
+p {
+    background-color: aqua;
+    text-indent: 30px;
+}
+h6{
+    text-indent:  initial;
+    /* text-indent: inherit; */
+    text-indent: 20%;
+    /* text-indent: unset; */
+    background-color: hsl(240, 100%, 50%);
+   
+
+}
+.a{
+/* white-space: normal ; */
+/* white-space: nowrap; */
+/* white-space:  pre ; */
+/* white-space: pre-wrap ; */
+/* white-space: pre-line ; */
+white-space: initial ;
+/* white-space: inherit; */
+
+}
+.d{
+/* direction: ltr;*/
+/* direction: rtl; */
+direction: inherit;
+}
+
+.img{
+    /* object-fit: fill ; */
+    /* object-fit: contain; */
+    /* object-fit:  cover; */
+    /* object-fit:  none; */
+    /* object-fit:  scale-down; */
+    /* object-fit:  initial; */
+    object-fit:  inherit;
+
+}

@@ -1,0 +1,19 @@
+.l{
+    text-align: end;
+    color: rgb(235, 24, 24); 
+    text-shadow: 6px 6px 6pxwhite;
+    text-decoration: underline;
+    text-transform: capitalize;
+     }
+
+.c{
+    object-fit: cover;
+    text-shadow: 4px 3px 1px black;
+    box-shadow: 4px 3px 1px pink;
+    color: aquamarine;
+    background: linear-gradient(red,green,blue,yellow);
+    text-wrap: wrap;
+    word-spacing: 10px;
+}
+    
+    

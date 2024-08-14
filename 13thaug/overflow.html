@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>overflow</title>
+<style> 
+    h1{
+        background-color: aqua;
+    }
+    p{
+        font-size: 50%;
+        background-color: darkkhaki;
+    }
+
+.a {
+  white-space: nowrap; 
+  width: 50px; 
+  overflow:auto;
+  text-align: center;
+  text-overflow: clip; 
+  border: 1px solid pink;
+  background-color: aqua;
+  color: brown;
+}
+
+.b {
+  white-space: nowrap; 
+  width: 50px; 
+  overflow: scroll;
+  text-align: center;
+  text-overflow: ellipsis; 
+  border: 1px solid hwb(203 4% 8%);
+}
+
+.c {
+  white-space: nowrap; 
+  width: 100px; 
+  text-align: center;
+  overflow: visible;
+  text-overflow:inherit;
+  border: 1px solid hsl(0, 91%, 46%);
+}
+
+.c {
+    white-space: nowrap; 
+    width: 100px; 
+    overflow: hidden;
+    text-align: center;
+    text-overflow:inherit;
+    border: 1px solid hsl(0, 91%, 46%);
+  }
+h2{
+    text-align: center;
+    text-decoration:wavy;
+}
+</style>
+</head>
+<body>
+
+<h1>The text-overflow Property</h1>
+
+<p>The following two divs contains a text </p>
+
+<h2>text-overflow:-</h2>
+<div class="a">Hello world!</div>
+
+<h2>text-overflow:-</h2>
+<div class="b">Hello world!</div>
+
+<h2>text-overflow:-</h2>
+<div class="c">Hello world!</div>
+
+<h2>text-overflow:-</h2>
+<div class="d">Hello world!</div>
+
+<p><strong>Note:</strong> The text-overflow: "<em>string</em>visible auto scroll hidden</p>
+
+</body>
+</html>

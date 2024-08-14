@@ -1,0 +1,139 @@
+h1{
+    background-color: #1fc930;
+    background-color: hsl(271, 87%, 31%);
+}
+
+div {
+    white-space: nowrap; 
+  width: 50px; 
+  overflow:auto;
+  text-align: center;
+  text-overflow: clip; 
+  border: 1px solid pink;
+  background-color: aqua;
+  }
+
+  #a{
+    background-color: rgb(255,0,10);
+  }
+  .b{
+    background-color: rgba(10, 100, 120, 255);
+    width: 50%;
+    color: aqua;
+  }
+  #c{
+    background-color: #ff0077;
+    width: 50%;
+    color: black;
+  }
+  .d{
+    background-color: darksalmon;
+    font-size: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: 900;
+    font-display: hello;
+    font-variant: small-caps;
+    font-stretch: expanded;
+    text-align: center;
+  }
+  #e{
+    font-weight: 1000;
+    color: aquamarine;
+    font-style: italic;
+    background-color: black;
+    text-align: right;
+    text-decoration: line-through;
+  }
+  .f{
+    text-decoration: dashed;
+    text-decoration: underline;
+  }
+  .g{
+    text-decoration: overline;
+  }
+  .h{
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    width: 50px;
+  }
+  .i{
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    width: 30%;
+  }
+  .j{
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    color: aquamarine;
+    width: 20%;
+  }
+  .k{
+    text-transform: lowercase;
+  }
+  #l{
+    text-transform: uppercase;
+    width: 10%;
+  }
+  .m{
+    text-transform: capitalize;
+    width: 20%;
+  }
+  #n{
+    text-transform: inherit;
+    width: 40px;
+  }
+  #o{
+    text-shadow: 4px 4px pink;
+    color: blue;
+    background-color: aqua;
+  }
+  .p{
+    text-shadow: 4px 3px 4px palevioletred;
+    color: chartreuse;
+  }
+  #q{
+    text-shadow: 4px 4px 3px black;
+    color: aquamarine;
+    background-color: burlywood;
+    /* word-spacing: 30px; */
+    
+  }
+  .r{
+    text-shadow: 4px 4px 3px black;
+    color: aquamarine;
+    background-color: gray;
+     word-spacing: 30px; 
+     text-wrap: wrap;
+     box-shadow: 12px 3px 5px red;
+     /* background: linear-gradient(red blue green yellow); */
+    
+  }
+  .s{
+    text-shadow: 4px 4px 3px black;
+    box-shadow: 12px 3px 5px black;
+      background: linear-gradient(red, green, blue, pink);
+      width:150px;
+  }
+  .t{
+    text-shadow: 4px 4px 3px black;
+    color: aquamarine;
+   background-color: gray;
+     word-spacing: 30px; 
+     text-wrap: wrap;
+     /* letter-spacing: 2px; */
+     box-shadow: 12px 3px 5px black;
+     background: linear-gradient(to top, red, green, blue);
+
+  }
+  .u{
+    text-shadow: 4px 4px 3px black;
+    color: aquamarine;
+   background-color: gray;
+     word-spacing: 30px; 
+     text-wrap: nowrap;
+     letter-spacing: 2px;
+     box-shadow: 12px 3px 5px black;
+     background: linear-gradient(to top, red, green, blue);
+
+  }

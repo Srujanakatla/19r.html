@@ -1,0 +1,71 @@
+/* body{
+    background-image: url(https://th.bing.com/th/id/OIP.MBlOJPg-beF5E6q2yR5k9gAAAA?rs=1&pid=ImgDetMain);
+
+} */
+
+#p1{
+    background-color: lightpink; 
+    text-align: left;
+    font-style: italic;
+    font-size: 20px;
+    text-transform: lowercase;
+    width: auto;
+    }
+
+        #p2 {
+           
+    color: rgb(235, 24, 24); 
+    text-shadow: 6px 6px 6px white;
+    text-decoration: underline;
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    object-fit: fill;
+    text-transform: capitalize;
+     }
+    #p3{
+        color: #f5f9fa;
+        text-shadow: 5px 5px 5px white;
+        text-decoration: overline;
+        text-align: start;
+        text-transform: uppercase;
+    }
+    #a1{
+        object-fit: cover;
+        width: 200px;
+        height: 200px;
+        border: 2px solid rgb(240, 234, 234); 
+    }
+    #a2{
+        object-fit: scale-down;
+        width: 200px; 
+        height: 200px;
+        border: 2px solid rgb(240, 234, 234); 
+    }
+    #a3{
+        object-fit: none;
+        width: 200px;
+        height: 200px;
+        border: 2px solid rgb(240, 234, 234); 
+    }
+   
+.p{
+    text-shadow: 4px 3px 1px black;
+    box-shadow: 4px 3px 1px pink;
+    color: aquamarine;
+    background: linear-gradient(red,green,blue,yellow);
+    text-wrap: wrap;
+    word-spacing: 10px;
+}
+    
+    
+    
+    
+    
+    
+   
+   
+    
+    
+    
+    
