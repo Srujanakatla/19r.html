@@ -1,0 +1,52 @@
+body{
+    background-image: url("https://img.freepik.com/premium-photo/dynamic-digital-canvas-showing-hanumans-tail-wrapping-around-earth_1112756-3391.jpg");
+    background-size: cover;
+}
+.a {
+    display: flex;
+    align-items: center;   
+    justify-content: center; 
+    padding: 20px;
+    background-color: pink;
+    /* margin: 0 90px; */
+}
+.logo {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px; 
+}
+.b {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.c {
+    background-color:grey;
+    width: 40%;
+    padding: 15px;
+    box-sizing: border-box;
+    color: #333;
+}
+.d {
+    background-color:lightblue;
+    width: 55%;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #333;
+}
+ .logo {
+    margin: 0 300px; 
+    background: fixed;
+   
+}
+.a {
+    display: flex;
+    align-items: center;   
+    justify-content: center; 
+    padding: 0 10px;
+    background-color:violet;
+    /* float: left; */
+}

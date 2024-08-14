@@ -1,0 +1,26 @@
+.nav{
+    background-color: pink;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.a{
+    float: left;
+    width: 500px;
+    background-color:aqua;
+    
+}
+.b{
+    float: right;
+    width: 1000px;
+    background-color:darkkhaki;
+}
+.c{ 
+        clear: both;
+        background-color: green;
+        height: 50px;
+        padding-bottom: 50px;
+        padding: 0 50px;
+        margin: 0 10px; 
+        
+}
